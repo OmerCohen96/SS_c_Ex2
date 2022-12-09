@@ -67,11 +67,11 @@ void isPath (int i , int j) {
 	
 	if  (shortestPathMatrix[i][j] > 0 && shortestPathMatrix[i][j] < infinity) {
 		
-		printf ("true\n");
+		printf ("True\n");
 		
 	} else {
 		
-		printf ("false\n");
+		printf ("False\n");
 	}
 		
 }
